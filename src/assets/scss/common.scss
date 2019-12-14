@@ -1,0 +1,21 @@
+$px: ys;
+
+// 重新el-table
+.el-table--border {
+  th.gutter:last-of-type {
+    display: table-cell !important;
+    width: 17px !important;
+  }
+}
+
+// 公共样式
+.#{$px}-mb__10 {
+  margin-bottom: 10px;
+}
+
+.#{$px}-ml__10 {
+  margin-left: 10px;
+}
+.#{$px}-pointer {
+  cursor: pointer;
+}
